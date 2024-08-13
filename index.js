@@ -229,7 +229,7 @@ let fragment = document.createDocumentFragment();
 
 for (let i = 0; i < eventos.length; i++) {
     let tarjeta = document.createElement("div")
-        tarjeta.className = "card col-sm-5 col-lg-3 col-xl-2  mb-3 mx-1 p-2"
+        tarjeta.className = "card col-sm-5 col-lg-3 col-xl-2  mb-3 mx-1 p-0"
         tarjeta.innerHTML = `
                     <img src="${eventos[i].imagen}" class="card-img-top h-40 object-fit-cover" alt="${eventos[i].Categoría}">
 

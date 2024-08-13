@@ -210,14 +210,14 @@ function tarjeta_coming(ev) {
 
             `<img src="${ev.imagen}" class="img-fluid col-sm-5 object-fit-inherit p-2" alt="Books">
             <ul class="col-sm-5">
-              <li>Name: ${ev.nombre}</li>
-              <li>Date: ${ev.fecha}</li>
-              <li>Description: ${ev.descripción}</li>
-              <li>Category: ${ev.Categoría}</li>
-              <li>Place: ${ev.Lugar}</li>
-              <li>Capacity: ${ev.capacidad}</li>
-              <li>Estimation: ${ev.Estimación}</li>
-              <li>Price: ${ev.Precio}</li>
+              <li><span class="fw-bold">Name:</span> ${ev.nombre}</li>
+              <li><span class="fw-bold">Date:</span> ${ev.fecha}</li>
+              <li><span class="fw-bold">Description:</span> ${ev.descripción}</li>
+              <li><span class="fw-bold">Category:</span> ${ev.Categoría}</li>
+              <li><span class="fw-bold">Place:</span> ${ev.Lugar}</li>
+              <li><span class="fw-bold">Capacity:</span> ${ev.capacidad}</li>
+              <li><span class="fw-bold">Estimation:</span> ${ev.Estimación}</li>
+              <li><span class="fw-bold">Price:</span> ${ev.Precio}</li>
 
             </ul>`
 }
@@ -228,14 +228,14 @@ function tarjeta_past(ev) {
 
             `<img src="${ev.imagen}" class="img-fluid col-sm-5 object-fit-inherit p-2" alt="Books">
             <ul class="col-sm-5">
-              <li>Name: ${ev.nombre}</li>
-              <li>Date: ${ev.fecha}</li>
-              <li>Description: ${ev.descripción}</li>
-              <li>Category: ${ev.Categoría}</li>
-              <li>Place: ${ev.Lugar}</li>
-              <li>Capacity: ${ev.capacidad}</li>
-              <li>Assistance: ${ev.asistencia}</li>
-              <li>Price: ${ev.Precio}</li>
+              <li><span class="fw-bold">Name:</span> ${ev.nombre}</li>
+              <li><span class="fw-bold">Date:</span> ${ev.fecha}</li>
+              <li><span class="fw-bold">Description:</span> ${ev.descripción}</li>
+              <li><span class="fw-bold">Category:</span> ${ev.Categoría}</li>
+              <li><span class="fw-bold">Place:</span> ${ev.Lugar}</li>
+              <li><span class="fw-bold">Capacity:</span> ${ev.capacidad}</li>
+              <li><span class="fw-bold">Assistance:</span> ${ev.asistencia}</li>
+              <li><span class="fw-bold">Price:</span> ${ev.Precio}</li>
 
             </ul>`
 }
