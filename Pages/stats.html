@@ -12,10 +12,10 @@
 
 <body>
 
-    <div class="layout">
+    <div class="layout d-flex flex-column min-vh-100">
 
         <header >
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-black">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"><img src="../Assets/amazing_brand.png" alt="Logo" class="logo"></a>
 
@@ -26,7 +26,7 @@
                   <div class="collapse navbar-collapse flex-grow-0 " id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active text-danger" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link active text-danger" aria-current="page" href="./index.html">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link text-danger" href="./upcomingEvents.html">Upcoming Events</a>
@@ -49,7 +49,7 @@
 
         </header>
 
-        <main class="bg-danger-subtle">
+        <main class="bg-success-subtle flex-grow-1">
 
           <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
@@ -114,28 +114,32 @@
 
 
               <tbody>
-                <tr>
+                <tr id="stats">
                 <td>Events with highest % of assistance</td>
                 <td>Events with lowest % of assistance</td>
                 <td>Events with larger capacity</td>
                 </tr>
-                <tr></tr>
+                
 
 
-              <tr><th class="table-danger">Upcoming events statistics by category</th></tr>
+              <tr><th class="table-danger">Upcoming events statistics by category</th>
+              </tr>
 
-              <tr><td>Categories</td>
+              <tr id="stats_Upcoming">
+              <td>Categories</td>
               <td>Revenues</td>
-              <td>Percentage of assitance</td></tr>
-              <tr> </tr>
-              <tr> </tr>
+              <td>Percentage of assitance</td>
+              </tr>
+              
 
-              <tr><th class="table-danger">Past events statistics by category</th></tr>
-              <tr><td>Categories</td>
+              <tr><th class="table-danger">Past events statistics by category</th>
+              </tr>
+              <tr id="stats_Past">
+              <td>Categories</td>
               <td>Revenues</td>
-              <td>Percentage of assitance</td></tr>
-              <tr></tr>
-              <tr></tr>
+              <td>Percentage of assitance</td>
+              </tr>
+              
               
               </tbody>
               
@@ -165,5 +169,6 @@
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <script type="module" src="./scripts/stats.js"></script>
+  </body>
 </html>

@@ -11,5 +11,11 @@
     height: 80vh;
 }
 
-
-
+@media (min-width: 1440px) {
+    .w-23{
+    
+        
+        width: 23%;
+    }
+    
+}
