@@ -19,3 +19,14 @@
     }
     
 }
+
+
+@media (max-width: 570px) {
+    .spacing{
+    
+        
+        margin-left: 10px;
+    }
+    
+}
+

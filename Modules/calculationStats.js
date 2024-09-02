@@ -19,6 +19,8 @@ export function calculateCategoryStats(events, isUpcoming = false) {
 
     // Cálculo del porcentaje de asistencia por categoría
     return Object.keys(categoryStats).map(category => {
+        console.log(category);
+        
         let stats = categoryStats[category];
         let attendancePercentage = (stats.totalAssistance / stats.totalCapacity) * 100;
 
